@@ -74,7 +74,7 @@ public class DishService {
 
         dishRepository.save(dish);
 
-        return new MessageResponseDTO("Plato creado con exito");
+        return new MessageResponseDTO("Plato se ha creado con exito");
     }
 
     public MessageResponseDTO updateDish(Integer id, DishRequestDTO request){
