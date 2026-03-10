@@ -1,3 +1,20 @@
 spring:
-  application:
-    name: restaurante
+  datasource:
+    url: jdbc:mysql://localhost:3306/restaurante
+    username: root
+    password:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    database-platform: org.hibernate.dialect.MySQLDialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+server:
+  port: 8080
+  servlet:
+    context-path: /api/v1/inventario-restaurante
