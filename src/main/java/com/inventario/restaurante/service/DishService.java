@@ -62,7 +62,7 @@ public class DishService {
     public MessageResponseDTO createDish(DishRequestDTO request){
 
         if(request.getPrice() <= 0){
-            return new MessageResponseDTO("El precio debe ser mayor a 0");
+            return new MessageResponseDTO("El precio debera ser mayor a 0");
         }
 
         Dish dish = new Dish();
@@ -82,7 +82,7 @@ public class DishService {
         Dish dish = dishRepository.findById(id).orElse(null);
 
         if(dish == null){
-            return new MessageResponseDTO("Plato no encontrado");
+            return new MessageResponseDTO("Plato no se ha encontrado");
         }
 
         dish.setName(request.getName());
