@@ -1,50 +1,50 @@
 package com.inventario.restaurante.dto;
 
 public class DishResponseDTO {
-
-    private Integer id;
-    private String name;
-    private String type;
-    private double price;
-    private boolean available;
-
+ private Integer id;
+ private String name;
+ private String type;
+ private double price;
+ private boolean available;
+ 
     public Integer getId() {
-        return id;
+    return id;
     }
 
     public void setId(Integer id) {
-        this.id = id;
+    this.id = id;
     }
 
     public String getName() {
-        return name;
+    return name;
     }
 
     public void setName(String name) {
-        this.name = name;
+    this.name = name;
     }
 
     public String getType() {
-        return type;
+    return type;
     }
 
     public void setType(String type) {
-        this.type = type;
+    this.type = type;
     }
 
     public double getPrice() {
-        return price;
+    return price;
     }
 
     public void setPrice(double price) {
-        this.price = price;
+    this.price = price;
     }
 
     public boolean isAvailable() {
-        return available;
+    return available;
     }
 
     public void setAvailable(boolean available) {
-        this.available = available;
+    this.available = available;
     }
-}
+
+
