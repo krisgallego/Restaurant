@@ -92,7 +92,7 @@ public class DishService {
 
         dishRepository.save(dish);
 
-        return new MessageResponseDTO("Plato actualizado correctamente");
+        return new MessageResponseDTO("Plato actualizado correctamente.");
     }
 
     public MessageResponseDTO deleteDish(Integer id){
