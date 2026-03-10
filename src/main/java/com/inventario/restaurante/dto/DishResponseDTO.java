@@ -49,4 +49,6 @@ public class DishResponseDTO {
 
 
 
+    private Integer id;
+    private Integer price;
 }

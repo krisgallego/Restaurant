@@ -1,5 +1,11 @@
 package com.inventario.restaurante.repository;
 
-public class DishRepository {
+
+import com.inventario.restaurante.entity.Dish;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface DishRepository extends JpaRepository<Dish, Long> {
     
 }
