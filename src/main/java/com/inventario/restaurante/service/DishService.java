@@ -104,7 +104,7 @@ public class DishService {
         }
         dishRepository.deleteById(id);
 
-        return new MessageResponseDTO("Plato eliminado con exito");
+        return new MessageResponseDTO("Plato eliminado con exito.");
     }
 
 }
