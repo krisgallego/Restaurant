@@ -1,7 +1,7 @@
 package com.inventario.restaurante.entity;
 
 import jakarta.persistence.*;
-
+// Tabla
 @Entity
 @Table(name="dishes")
 public class Dish {
